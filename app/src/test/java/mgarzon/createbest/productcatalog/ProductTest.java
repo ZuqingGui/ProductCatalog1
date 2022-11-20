@@ -1,5 +1,7 @@
 package mgarzon.createbest.productcatalog;
 import static org.junit.Assert.*;
+
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ProductTest {
@@ -20,7 +22,7 @@ public class ProductTest {
     public void checkProductPrice() {
         // I am making this test to fail
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals(180.0, "0", aProduct.getPrice(), 0.00102);
+        Assert.assertEquals(180, "0", aProduct.getPrice(), 0.00102);
     }
 
 
