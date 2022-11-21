@@ -22,11 +22,7 @@ public class ProductTest {
     public void checkProductPrice() {
         // I am making this test to fail
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-<<<<<<< HEAD
         Assert.assertEquals(180.0, aProduct.getPrice(), 0.00102);
-=======
-        Assert.assertEquals(180, "0", aProduct.getPrice(), 0.00102);
->>>>>>> parent of a1dea86 (Update ProductTest.java)
     }
     //assertEquals("Check the price of the product", "0", aProduct.getPrice());
     //assertEquals() uses equals() method to validate if the two objects are equal whereas assertSame() uses the operator == to validate if two object are equal.
